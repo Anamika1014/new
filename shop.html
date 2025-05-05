@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vetri Electronics - Shop</title>
+  <link rel="stylesheet" href="shop.css">
+  <script src="shop.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+        <img src="static/images/logonew.png" alt="Vetri Electronics" class="logo-img">
+    </div>
+    <div class="user-info">
+      <span>Hello, Vetri</span>
+      <div class="user-dropdown">
+        <img src="static/images/people/1.png" alt="User" class="user-img">
+        <i class="fas fa-chevron-down"></i>
+        <div class="dropdown-menu">
+          <a href="#">Account</a>
+          <a href="#">Your Orders</a>
+          <a href="wishlist.html">Wishlist</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <aside class="sidebar">
+      <h2>Categories</h2>
+      <ul>
+        <li>Mobiles</li>
+        <li>Laptops</li>
+        <li>TVs</li>
+        <li>Headphones</li>
+        <li>Accessories</li>
+        <li>Smart Watches</li>
+      </ul>
+    </aside>
+
+    <main class="shop">
+      <h1>Shop Products</h1>
+      <div id="products-container" class="products-grid"></div>
+      <div class="pagination">
+        <button id="prevBtn">Prev</button>
+        <span id="pageIndicator">1</span>
+        <button id="nextBtn">Next</button>
+      </div>
+    </main>
+  </div>
+
+</body>
+</html>

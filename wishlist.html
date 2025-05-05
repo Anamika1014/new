@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vetri Electronics - Wishlist</title>
+  <link rel="stylesheet" href="shop.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navbar Same as Shop -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="static/images/logonew.png" alt="Vetri Electronics" class="logo-img">
+    </div>
+    <div class="user-info">
+      <span>Hello, Vetri</span>
+      <div class="user-dropdown">
+        <img src="static/images/people/1.png" alt="User" class="user-img">
+        <i class="fas fa-chevron-down"></i>
+        <div class="dropdown-menu">
+          <a href="#">Account</a>
+          <a href="#">Your Orders</a>
+          <a href="wishlist.html">Wishlist</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="wishlist-page">
+    <h1>Your Wishlist</h1>
+    <table class="wishlist-table">
+      <thead>
+        <tr>
+          <th><i class="fas fa-image"></i> Image</th>
+          <th><i class="fas fa-box"></i> Product Name</th>
+          <th><i class="fas fa-align-left"></i> Description</th>
+          <th><i class="fas fa-tags"></i> Price</th>
+          <th><i class="fas fa-shopping-cart"></i> Checkout</th>
+          <th><i class="fas fa-trash"></i> Remove</th>
+        </tr>
+      </thead>
+      <tbody id="wishlist-body">
+        
+      </tbody>
+    </table>
+  </main>
+
+  <script src="wishlist.js" defer></script>
+
+</body>
+</html>
